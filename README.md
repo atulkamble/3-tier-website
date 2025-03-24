@@ -158,9 +158,9 @@ git clone https://github.com/your-username/3-tier-website.git
 ### Step 3: Run Setup Scripts
 Run the respective setup scripts:
 ```bash
-bash deploy/frontend-setup.sh
-bash deploy/backend-setup.sh
-bash deploy/db-setup.sh
+sudo bash deploy/frontend-setup.sh
+sudo bash deploy/backend-setup.sh
+sudo bash deploy/db-setup.sh
 ```
 
 ### Step 4: Test
