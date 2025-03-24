@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My 3-Tier Website</title>
+</head>
+<body>
+  <h1>Welcome to My 3-Tier Web App</h1>
+  <p>Data from backend: <span id="data"></span></p>
+  <script>
+    fetch('http://<backend-ec2-ip>:3000/data')
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('data').innerText = data.message;
+      });
+  </script>
+</body>
+</html>
