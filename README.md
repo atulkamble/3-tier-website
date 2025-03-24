@@ -167,12 +167,3 @@ sudo bash deploy/db-setup.sh
 - Backend should fetch data from the DB
 
 ```
-
----
-
-## 🛠 GitHub Repository
-
-You can name it: `3-tier-website-on-ec2`  
-Push all folders (`frontend`, `backend`, `database`, `deploy`, `README.md`) to this repo.
-
-Would you like me to help generate this GitHub repo or prepare a ZIP version to upload?
