@@ -166,4 +166,3 @@ sudo bash deploy/db-setup.sh
 - Access Frontend: `http://<frontend-ec2-public-ip>`
 - Backend should fetch data from the DB
 
-```
