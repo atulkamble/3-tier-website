@@ -19,7 +19,10 @@ Perfect! Here's a complete guide with **code structure** and **documentation** t
     ├── backend-setup.sh
     └── db-setup.sh
 ```
-
+```
+git clone https://github.com/atulkamble/3-tier-website.git
+cd 3-tier-website
+```
 ---
 
 ## 1️⃣ Frontend (Presentation Layer)
