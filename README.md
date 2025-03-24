@@ -1,5 +1,5 @@
 # ec2-3-tier-website-project
-Perfect! Here's a complete guide with **code structure** and **documentation** to create and host a **3-tier website on EC2** with **Git** integration:
+Complete guide with **code structure** and **documentation** to create and host a **3-tier website on EC2** with **Git** integration:
 
 ---
 
@@ -20,8 +20,8 @@ Perfect! Here's a complete guide with **code structure** and **documentation** t
     └── db-setup.sh
 ```
 ```
-git clone https://github.com/atulkamble/3-tier-website.git
-cd 3-tier-website
+git clone https://github.com/atulkamble/aws-3-tier-website.git
+cd aws-3-tier-websitee
 ```
 ---
 
