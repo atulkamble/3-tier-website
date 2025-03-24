@@ -132,8 +132,6 @@ mysql -u root < 3-tier-website/database/init.sql
 
 ---
 
-## 📘 GitHub README.md (for documentation)
-
 ```markdown
 # 3-Tier Website on EC2
 
@@ -152,7 +150,8 @@ mysql -u root < 3-tier-website/database/init.sql
 ### Step 2: Git Clone
 On each instance, clone the repo:
 ```bash
-git clone https://github.com/your-username/3-tier-website.git
+git clone https://github.com/atulkamble/aws-3-tier-website.git
+cd aws-3-tier-website
 ```
 
 ### Step 3: Run Setup Scripts
