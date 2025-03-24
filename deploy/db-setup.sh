@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo yum install mysql-client -y
+sudo yum install mysql-selinux.noarch -y
 sudo yum install mariadb-server -y
 sudo systemctl enable --now mariadb
 sudo systemctl restart mariadb
