@@ -101,7 +101,7 @@ sudo yum install -y httpd git
 sudo systemctl start httpd
 sudo systemctl enable httpd
 cd /var/www/html
-git clone https://github.com/your-username/3-tier-website.git
+git clone https://github.com/atulkamble/3-tier-website.git
 cp 3-tier-website/frontend/index.html .
 ```
 
@@ -110,7 +110,7 @@ cp 3-tier-website/frontend/index.html .
 #!/bin/bash
 curl -fsSL https://rpm.nodesource.com/setup_18.x | sudo bash -
 sudo yum install -y nodejs git
-git clone https://github.com/your-username/3-tier-website.git
+git clone https://github.com/atulkamble/3-tier-website.git
 cd 3-tier-website/backend
 npm init -y
 npm install express mysql2 cors
@@ -123,7 +123,7 @@ node server.js
 sudo yum install -y mariadb-server git
 sudo systemctl start mariadb
 sudo systemctl enable mariadb
-git clone https://github.com/your-username/3-tier-website.git
+git clone https://github.com/atulkamble/3-tier-website.git
 mysql -u root < 3-tier-website/database/init.sql
 ```
 
