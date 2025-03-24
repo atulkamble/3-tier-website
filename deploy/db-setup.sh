@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo yum install mysql-selinux.noarch -y
-sudo yum install mariadb-server -y
+sudo yum install mariadb -y
 sudo systemctl enable --now mariadb
 sudo systemctl restart mariadb
 git clone https://github.com/atulkamble/3-tier-website.git
